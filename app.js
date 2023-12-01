@@ -1,5 +1,5 @@
 var port = process.env.PORT || 3000,
-    http = require('http'),
+    http = require('https'),
     fs = require('fs');
 
 var app = http.createServer(function (req, res) {
